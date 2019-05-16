@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+button:focus {
+    outline: 0;
+}
+
+ul {
+    list-style: none
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    background-color: #f7f7f7
+}
+
+/* 字体集 */
+@font-face {
+    font-family: 'Baskerville';
+    src: url('../fonts/baskervi.TTF')
+}
+
+@font-face {
+    font-family: 'KaiTi_GB2312';
+    src: url('../fonts/KaiTi_GB2312.ttf')
+}
+
+/* //////////////////////////////header部分////////////////////////// */
+
+/* header_title部分 */
+.header_title {
+    font-family: 'Baskerville';
+    color: #333333;
+    font-weight: 700;
+    font-size: 1.5em
+}
+
+/* 个人简介部分 */
+.description {
+    font-family: 'Times New Roman, Times, serif';
+    font-size: 15px;
+    font-weight: 200;
+    color: #888;
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* nav-links部分 */
+
+.nav_links {
+    font-family: 'Times New Roman';
+    font-size: 16px;
+    font-style: italic
+}
+
+.nav_link {
+    display: inline-block;
+}
+
+.nav_link a {
+    color: #333;
+    text-decoration: none;
+    margin-right: 10px;
+    border-bottom: 1px solid #bbb;
+}
+
+.nav_links a:hover {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid black
+} 
+
+/* 头像部分 */
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #f2f2f2;
+    transition: transform 1s;
+    animation: fade-in-down .6s;
+    animation-delay: .2s; 
+}
+
+.avatar:hover{
+    transform: rotate(360deg)
+}
+
+/* social_media部分 */
+svg:hover path{
+    cursor: pointer;
+    fill: #515151;
+}
+
+.social_media_links li{
+    display: inline-block;
+}
+
+.social_media_links a {
+    margin-right: 10px;
+}
+
+/* 头部的info部分 */
+.header_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* 头部的blank部分 */
+.header_blank {
+    box-sizing: inherit;
+    display: block;
+    padding: 80px 0;
+}
+
+/* 头部的整体 */
+.header {
+    width: 80vw;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: block;
+    padding: 0;
+}
+
+/* //////////////////////////footer部分///////////////////// */
+.footer {
+    font-family: 'Times New Roman';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 0 !important;
+    color: #333;
+    bottom: 0;
+}
+
+.footer p {
+    margin: 0 !important;
+    font-size: 13px;
+    color: #888;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid black
+}
