@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import HomePage from './containers/HomePage.js';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Total from './containers/Total'
+// import Homepage from './containers/HomePage'
+// import Test from './components/test'
 
-ReactDOM.render(<HomePage />, document.getElementById('root'));
+ReactDOM.render(<Total />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

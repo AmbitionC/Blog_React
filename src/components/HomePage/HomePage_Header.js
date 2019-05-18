@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import avatarImg from '../../img/avatar.jpg';
 
@@ -27,7 +28,10 @@ function blank(){
 function title(){
     return (
         <React.Fragment>
-            <h1 className='header_title'>{"AmbitionC"}</h1>
+            {/* <h1 className='header_title'>{"AmbitionC"}</h1> */}
+            <h1 className='header_title'>
+                <Link to='/'>AmbitionC</Link>
+            </h1>
         </React.Fragment>
     )
 }
@@ -53,31 +57,30 @@ function title_part(){
     )
 }
 
-// 导航栏部分
-function nav_links(){
+function nav_links() {
     return (
-        <React.Fragment>
+        <div>
             <ul className='nav_links'>
                 <li className='nav_link'>
-                    <a href='/'>Blogs</a>
+                    <Link to='/Blogs/'>Blogs</Link>
                 </li>
                 <li className='nav_link'>
-                    <a href='/'>Notes</a>
+                    <Link to='/Notes/'>Notes</Link>
                 </li>
                 <li className='nav_link'>
-                    <a href='/'>About</a>
+                    <Link to='/About/'>About</Link>
                 </li>
                 <li className='nav_link'>
-                    <a href='/'>Works</a>
+                    <Link to='/Works/'>Works</Link>
                 </li>
                 <li className='nav_link'>
-                    <a href='/'>Talks</a>
+                    <Link to='/Talks/'>Talks</Link>
                 </li>
                 <li className='nav_link'>
-                    <a href='/'>Publications</a>
+                    <Link to='/Publications/'>Publications</Link>
                 </li>
             </ul>
-        </React.Fragment>
+        </div>
     )
 }
 

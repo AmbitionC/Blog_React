@@ -4,12 +4,10 @@ class HomePage_Footer extends Component {
     render() {
         return (
             <React.Fragment>
-                {/* <div className='footer'> */}
                 <footer className='footer'>
                     {license()}
                     {copyright()}
                 </footer>  
-                {/* </div> */}
             </React.Fragment> 
         )
     }
