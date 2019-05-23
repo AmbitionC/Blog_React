@@ -1,0 +1,75 @@
+.blog_pages {
+    font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW-Kai,serif;
+    font-weight: lighter;
+    padding: 50px 50px 20px;
+    position: relative;
+    width: 80vw;
+    max-width: 940px;
+    margin: 40px auto 0px;
+    background: #fff;
+    box-shadow: 0 10px 20px 0 hsla(0, 0%, 92.5%, .86);
+    display: block 
+}
+
+.blog_page_tags {
+    color: #999;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 2em;
+    border-top: 1px solid #c9c9c9;
+    padding-top: 1em;
+    display: block
+}
+
+.blog_page_tags span {
+    margin-right: .2em
+}
+
+/* //////////////////////Blog_pages的markdown部分////////////////////////// */
+pre {
+    margin: 1.3em 0px!important;
+    border: 1.5px solid #ccc;
+    padding: 1em 1em;
+    box-shadow: 0 10px 20px 0 hsla(0, 0%, 80.5%, .83);
+}
+
+blockquote {
+    color: #666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #eee solid;
+}
+
+.blog_pages ul{
+    margin-left: 1.3em;
+    list-style: disc
+}
+
+.blog_pages h1 {
+    font-size: 2em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em
+}
+
+.blog_pages h2 {
+    font-size: 1.8em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: 100
+}
+
+.blog_pages h4 {
+    font-size: 1.4em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: 100
+}
+
+.blog_pages a {
+    color: black;
+    border-bottom: 1px solid #1abc9c;
+    text-decoration: none;
+}

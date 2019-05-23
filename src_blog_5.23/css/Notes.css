@@ -1,0 +1,89 @@
+/* Notes_navigation 部分 */
+.notes_navigation {
+    position: fixed;
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 100%;
+    border-right: 1.5px solid gray;
+}
+
+/* 导航栏的头部 */
+.notes_content_table {
+    text-align: center;
+    background-color: #2980b9;
+    font-size: 1.05em;
+    color: white;
+    padding: 0.81em;
+    margin-bottom: 0.81em;
+    margin-top: 0;
+    font-weight: 680;
+}
+
+.notes_author_info {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #343131;
+}
+
+/* 导航栏的尾部 */
+.notes_author_info span{
+    margin-bottom: 0;
+    margin: 0.2em;
+    line-height: 24px;
+    display: block;
+    color: #fcfcfc;
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.notes_author_info a {
+    color: #fcfcfc;
+    margin-left: 1em;
+}
+
+.notes_author_info a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #fcfcfc
+}
+
+/* 导航栏的中间部分 */
+.ant-menu {
+    border-right: .5px solid gray;
+    background-color: #f0f0f0;
+}
+
+.ant-menu-submenu-title {
+    font-size: 16px!important;
+}
+
+.ant-anchor-link {
+    font-size: 15px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+}
+
+.ant-anchor-link-active {
+    background-color: #e0e0e0;
+}
+
+.ant-anchor-link-active a {
+    color: black!important;
+    font-style: italic
+}
+
+/* Notes_Content 部分 */
+.notes_content {
+    margin-left: 301.5px;
+    background-color: white;
+    min-height: 100%;
+    padding: 1.618em 3.236em;
+    display: block
+}
+
+.notes_page {
+    font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW-Kai,serif;
+    color: #404040;
+    font-weight: 300;
+}

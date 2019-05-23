@@ -1,0 +1,31 @@
+/* //////////////////////////////content部分////////////////////////// */
+.about_content {
+    font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW-Kai,serif;
+    font-weight: lighter;
+    padding: 50px 50px 70px;
+    position: relative;
+    width: 80vw;
+    max-width: 940px;
+    margin: 40px auto 0px;
+    background: #fff;
+    box-shadow: 0 10px 20px 0 hsla(0, 0%, 92.5%, .86);
+    display: block;
+}
+
+.about_content ul {
+    margin-left: 1.3em;
+    list-style: disc 
+}
+
+/* 设置字体 */
+.about_content h1 {
+    font-size: 2em;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em
+}
+
+.about_content a {
+    color: black;
+    border-bottom: 1px solid #1abc9c;
+    text-decoration: none;
+}
