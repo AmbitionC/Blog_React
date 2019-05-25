@@ -3,9 +3,9 @@ import myMarked from 'marked'
 import hljs from 'highlight.js'
 import 'highlight.js/styles/github.css';
 
-import note_2 from "../../../posts/notes/test_note_2.md"; 
+import note_1 from "../../../posts/notes/1Computer_Science/Computer_Science.md"; 
 
-class Note_2 extends Component {
+class Note_1 extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -28,7 +28,7 @@ class Note_2 extends Component {
             smartypants: false,
             xhtml: false
           });
-        fetch(note_2)
+        fetch(note_1)
             .then(res => res.text())
             .then(text => this.setState({ markdown: text }));
     } 
@@ -47,4 +47,4 @@ class Note_2 extends Component {
     }
 }
 
-export default Note_2
+export default Note_1

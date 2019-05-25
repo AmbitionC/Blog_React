@@ -31,7 +31,8 @@ pre {
     margin: 1.3em 0px!important;
     border: 1.5px solid #ccc;
     padding: 1em 1em;
-    box-shadow: 0 10px 20px 0 hsla(0, 0%, 80.5%, .83);
+    box-shadow: 0 10px 10px 0 hsla(0, 0%, 90.5%, .81); 
+
 }
 
 blockquote {
@@ -39,6 +40,27 @@ blockquote {
     margin: 0;
     padding-left: 3em;
     border-left: 0.5em #eee solid;
+}
+
+/* 表格 */
+table {
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
 }
 
 .blog_pages ul{

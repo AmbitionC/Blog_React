@@ -1,0 +1,237 @@
+/* Notes_navigation 部分 */
+.notes_navigation {
+    position: fixed;
+    background-color: #f0f0f0;
+    width: 300px;
+    height: 100%;
+    border-right: 1.5px solid gray;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+/* 导航栏的头部 */
+.notes_content_table {
+    position: fixed;
+    width: 300px;
+    height: 55px;
+    border-right: 1.5px solid gray;
+    background-color: #2980b9;
+    margin-top: 0;
+    z-index: 20;
+}
+
+.notes_content_table p {
+    font-size: 1.05em;
+    color: white;
+    line-height: 55px;
+    font-weight: 680;
+    margin-left: 4.3em;
+    margin-bottom: 0;
+}
+
+/* 导航栏的尾部 */
+.notes_author_info {
+    border-right: 1.5px solid gray;
+    position: fixed;
+    bottom: 0;
+    width: 300px;
+    height: 55px;
+    background-color: #343131;
+}
+
+.notes_author_info span{
+    margin-bottom: 0;
+    margin: 0.2em;
+    line-height: 24px;
+    display: block;
+    color: #fcfcfc;
+    font-weight: 400;
+    margin-left: 1em;
+}
+
+.notes_author_info a {
+    color: #fcfcfc;
+    margin-left: 1em;
+}
+
+.notes_author_info a:hover {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #fcfcfc
+}
+
+.ant-menu {
+    border-right: .5px solid transparent;
+    background-color: #f0f0f0;
+    padding: 55px 0;
+}
+
+.ant-menu-submenu-title {
+    font-size: 16px!important;
+}
+
+.ant-anchor-link {
+    font-size: 15px;
+    background-color: #f0f0f0;
+    padding-left: 30px;
+}
+
+.ant-anchor-link-active {
+    background-color: #e0e0e0;
+}
+
+.ant-anchor-link-active a {
+    color: black!important;
+    font-style: italic
+}
+
+/* Notes_Content 部分 */
+.notes_content {
+    margin-left: 301.5px;
+    background-color: white;
+    min-height: 100%;
+    padding: 1.618em 3.236em;
+    display: block
+}
+
+/* Notes文章的markdown内容设置 */
+.notes_page {
+    font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW-Kai,serif;
+    color: #404040;
+    font-weight: lighter;
+}
+
+/* 代码块 */
+.notes_page pre {
+    margin: 1.3em 0px!important;
+    border: 1.5px solid #ccc;
+    padding: 1em 1em;
+    box-shadow: 0 10px 10px 0 hsla(0, 0%, 90.5%, .81); 
+}
+
+/* 引用 */
+.notes_page blockquote {
+    color: #666;
+    margin: 0;
+    padding-left: 3em;
+    border-left: 0.5em #eee solid; 
+}
+
+/* 表格 */
+table {
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+}
+table th {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+}
+table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+}
+
+/* 列表 */
+.notes_page ul {
+    margin-left: 1.3em;
+    list-style: disc 
+}
+
+.notes_page p {
+    font-family: Baskerville,Georgia,"Liberation Serif",Kaiti SC,STKaiti,AR PL UKai CN,AR PL UKai HK,AR PL UKai TW,AR PL UKai TW MBE,AR PL KaitiM GB,KaiTi,KaiTi_GB2312,DFKai-SB,TW-Kai,serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    margin-top: 0;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notes_description {
+    font-family: Lato,proxima-nova,"Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #404040;
+    margin-top: 0;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notes_page h1 {
+    font-family: "Roboto Slab",ff-tisa-web-pro,Georgia,Arial,sans-serif !important;
+    font-size: 1.75em;
+    margin-top: 1.2em;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notes_page h2 {
+    font-family: "Roboto Slab",ff-tisa-web-pro,Georgia,Arial,sans-serif;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notes_page h3 {
+    font-family: "Roboto Slab",ff-tisa-web-pro,Georgia,Arial,sans-serif;
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: 700;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.notes_page h4 {
+    font-family: "Roboto Slab",ff-tisa-web-pro,Georgia,Arial,sans-serif;
+    color: #2980b9;
+    font-size: 1.15em;
+    margin-top: 0;
+    margin-bottom: 0.6em;
+    line-height: 1.35;
+    font-weight: 300;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.notes_page a {
+    font-family: Lato,proxima-nova,"Helvetica Neue",Arial,sans-serif;
+    color: #2980b9;
+    border-bottom: 1px solid gray;
+    text-decoration: none;
+}
